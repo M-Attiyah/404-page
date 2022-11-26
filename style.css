@@ -1,0 +1,109 @@
+/* 
+    Import Google fonts 
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+/*
+    Reset all padding and margin from all elements
+    Set the box sizing to border to add the padding/margin/border values to content
+    
+    ||| The content Box
+    will add the padding and margin and border values on the width/height
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box; /* the box will */
+}
+
+body {
+	font-family: "Space Mono", monospace;
+}
+
+
+/* Main section */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Image */
+img {
+    width: 40em;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Texts section */
+
+main .texts {
+    width: 40em;
+    max-width: 100%;
+}
+
+.texts h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 38px;
+}
+
+.texts p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 64px;
+    width: 60%;
+}
+
+.texts button {
+    width: 216px;
+    height: 68px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Space Mono", monospace;
+    background-color: #aacbff;
+    color: #1b2e35;
+    text-transform: capitalize;
+    border-radius: 9px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 5px;
+    border-color: #007dfe;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.texts button:hover {
+    border-bottom-width: 2px;
+}
+
+@media (max-width: 1200px) {
+    main {
+        flex-direction: column;
+    }
+    img {
+        width: 30em;
+    }
+    main .texts {
+        text-align: center;
+    }
+    .texts h1 {
+        width: 90%;
+        margin: 0 auto 18px;
+        font-size: 28px;
+    }
+    .texts p {
+        width: 90%;
+        margin: 0 auto 30px;
+        font-size: 16px;
+    }
+    .texts button {
+        width: 186px;
+        height: 48px;
+    }
+} 
