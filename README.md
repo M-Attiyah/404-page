@@ -27,3 +27,5 @@ space mono, 700, 14px
 ## GOOD Resources
 
 [Reboot file](https://getbootstrap.com/docs/4.0/content/reboot/)
+
+[Responsive Image](https://www.freecodecamp.org/news/time-saving-css-techniques-to-create-responsive-images-ebb1e84f90d5/)
